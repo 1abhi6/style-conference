@@ -1,0 +1,219 @@
+/* CSS Reset  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main_div{
+    min-height:50vh;
+    background: #293f50;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* header  */
+
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.style_conference>a{
+    color:white;
+    text-decoration: none;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: normal;
+    font-weight: 200;
+    
+}
+.style_conference>a:hover{
+    color: #648880;
+}
+
+/* Navbar */
+
+.nav_bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+    position: relative;
+    top: 25px;
+
+}
+
+.nav_bar>p{
+    color: #648880;
+    font-size:18px;
+}
+.nav_bar>ul{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav_bar>ul>li{
+    list-style: none;
+    margin:10px;
+}
+
+.nav_bar>ul>li>a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+    font-size:14px;
+}
+
+.nav_bar>ul>li>a:hover{
+    color: #648880;
+}
+
+.txt1{
+    font-size: 36px;
+    line-height: 44px;
+    margin-top: 50px;
+    color:#648880;
+}
+
+.txt2{
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 15px;
+    color: white;
+
+}
+
+.register_btn{
+    border-radius: 5px;
+    color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin-top: 23px;
+  text-transform: uppercase;
+  padding: 25px 30px;
+  font-size: 15px;
+  background: transparent;
+  border: 1px solid white;
+}
+
+.register_btn:hover{
+    background:white;
+    color: #293f50;
+}
+
+
+
+/* Card Section  */
+.card_div{
+    /* display: grid;
+    place-items: center; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        max-height: 55vh;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 33.33%;
+    padding-left: 15px;
+    padding-right: 15px;
+    height:auto;
+    padding-top:90px;
+}
+
+.card>span{
+    color: #a9b2b9;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.card>a>img{
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
+.card_content>span{
+    margin-bottom: 22px;
+}
+.card_content>a{
+    text-decoration: none;
+    color: #a9b2b9;
+    font-size: 23px;
+}
+.card_content>a:hover{
+    color: #648880;
+}
+.card_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+}
+
+.ftr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    min-height:10vh;
+    background: #293f50;
+    margin-top: 50px;
+    margin-top: 90px;
+}
+
+.ftr>a{
+    text-decoration: none;
+    color:#648880;
+    
+}
+.ftr_nav{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+}
+.ftr_nav>li{
+    list-style: none;
+    margin:10px;
+}
+
+.ftr_nav>li>a{
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+    font-size:14px;
+}
+
+.ftr_nav>li>a:hover{
+    color: #648880;
+}
+
+div:empty{
+    color:red;
+}
